@@ -1,0 +1,27 @@
+/*  */
+.app-page-title-custom{
+    margin: 0px;
+}
+.main-card-custom {
+    margin: 30px;
+}
+.group-flex{
+    margin:0px 30px;
+}
+.th-panel-al{
+    width: 80px;
+    text-align: center;
+}
+.td-panel{
+    text-align: center;
+}
+.province-ckeckbox{
+    margin-right: 10px;
+}
+.table th, .table td{
+   
+    width: 10px;
+}
+.td-order{
+    text-align: center;
+}

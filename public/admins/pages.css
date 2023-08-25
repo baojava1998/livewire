@@ -1,0 +1,352 @@
+@font-face {
+    font-family: abc;
+    src: url("ARLRDBD.ttf");
+}
+.ctn-login{
+    text-align: center;
+}
+.form-login{
+    margin-top: 10%;
+    display: inline-block;
+}
+.page-title-actions a{
+    margin-top: 3px;
+}
+.text-status{
+    cursor: pointer;
+}
+.customer p {
+    padding-left: 20px;
+}
+.customer p:nth-child(2) {
+    margin-top: -15px;
+}
+.customer p:nth-child(1) {
+    margin-top: -5px;
+}
+.information-customer img{
+    margin-top: 20px;
+    width: 50px;
+}
+.form-check {
+    max-width: 30%;
+}
+.radio-status .form-check:nth-child(2){
+    margin-left: 10px;
+}
+#loading {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: none;
+    opacity: 0.7;
+    background-color: #262626;
+    z-index: 99999;
+    text-align: center;
+}
+
+#loading-image {
+    /*position: absolute;*/
+    margin: 0 auto;
+    z-index: 100;
+    display: none;
+}
+.active-menu {
+    background: #e0f3ff;
+}
+.button-submit {
+    margin-top: 27px;
+}
+#form-search .form-group {
+    margin-left: 20px;
+}
+.red-error{
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+    color: #d92550;
+    font-size: 80%;
+}
+#map {
+    height: 100%;
+}
+.logo-qtmac{
+   height: unset !important;
+}
+.panel-body-with-table {
+    margin-top: 10px;
+}
+.img-management{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px;
+}
+.dataTables_wrapper{
+    padding: 17px;
+}
+.table {
+    width: 100%;
+}
+.btn-actions-pane-right{
+    margin-top: 10px;
+}
+.dropzone{
+    border: 2px dashed rgba(0, 0, 0, 0.3) !important;
+    border-radius: 5px;
+}
+.hour-config span,.hour-config label{
+    padding: 8px 5px;
+}
+.btn-outline-secondary {
+    background: #787878;
+    color: white !important;
+}
+.card-footer .btn{
+    padding: .5rem 20px;
+}
+.btn-outline-success{
+    background: #4e8ac3;
+    color: white !important;
+}
+.card-footer {
+    border-top: none;
+    padding: 0.75rem 0.9rem !important;
+}
+
+/*config datatable*/
+.table thead tr:nth-child(1){
+    color: white;
+    background: #4e8ac3;
+
+}
+.dataTables_wrapper tbody tr{
+    background: white !important;
+}
+table.dataTable.cell-border tbody th, table.dataTable.cell-border tbody td {
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 8px 10px;
+}
+table.dataTable.cell-border tbody tr th:first-child, table.dataTable.cell-border tbody tr td:first-child {
+    border-left: 1px solid #ddd;
+}
+table.dataTable.no-footer {
+    border-bottom: 1px solid #ddd;
+}
+#DataTables_Table_0_wrapper .row:nth-child(3){
+    margin-top: 8px;
+}
+table.dataTable>thead .sorting:before, table.dataTable>thead .sorting:after, table.dataTable>thead .sorting_asc:before, table.dataTable>thead .sorting_asc:after, table.dataTable>thead .sorting_desc:before, table.dataTable>thead .sorting_desc:after, table.dataTable>thead .sorting_asc_disabled:before, table.dataTable>thead .sorting_asc_disabled:after, table.dataTable>thead .sorting_desc_disabled:before, table.dataTable>thead .sorting_desc_disabled:after {
+    bottom: 0.5em !important;
+}
+.table-borderless th, .table-borderless thead th {
+    border: 0;
+    border-right: 1px solid white !important;
+}
+/*config datatable*/
+.card-header:first-child {
+    border-radius: 8px 8px 0 0 !important;
+}
+.main-card {
+    border-radius: 8px;
+}
+.btn-actions-pane-left{
+    margin-bottom: 10px;
+}
+
+/*checkbox*/
+
+.config-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.config-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: -6px;
+    left: 13px;
+    height: 22px;
+    border-radius:5px;
+    width: 22px;
+    background-color: white;
+    border: 1px solid #D3CFC8;
+}
+
+/* On mouse-over, add a grey background color */
+.config-checkbox:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.config-checkbox input:checked ~ .checkmark {
+    background-color: #6f046f;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.config-checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.config-checkbox .checkmark:after {
+    left: 7px;
+    top: 3.5px;
+    width: 7px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.btn {
+    cursor:pointer !important;
+}
+
+.bannerCommon {
+    margin-top: 92px !important;
+}
+.disable .actions{
+    display: none;
+}
+.fa-trash {
+    color: red;
+}
+.fa-pencil-square-o {
+    color: slategrey;
+}
+.old-price {
+    text-decoration-line: line-through;
+    text-decoration-color: #8c98a4;
+    color: #8c98a4;
+}
+
+.notification{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    background-color: red;
+    width: 21px;
+    height: 21px;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+}
+
+.total-status-order .col-md-3{
+    border-radius: 20px;
+    max-width: 95%;
+    border: 5px solid #f1f4f6;
+    cursor: pointer;
+}
+
+.total-status-order .col-md-3:hover{
+    background-color: #fcffd9 !important;
+    transition: 0.1s;
+    margin-top: -5px;
+}
+
+.total-order {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.active-total-order {
+    background-color: #e1e1e1 !important;
+}
+
+/*rating*/
+.estrellas {
+    float: left;
+}
+.rating input {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    /*browsers that do not understand :focus-visible will use these default :focus styles for keyboard and mouse focus*/
+    /*browsers that understand :focus-visible will use the below styles and apply them only on keyboard focus, not mouse focus */
+}
+.rating input:focus + label span:before {
+    -webkit-box-shadow: 0 0 0 2px #74b0ff;
+    box-shadow: 0 0 0 2px #74b0ff;
+    border-radius: 2px;
+}
+.rating input.focus-visible + label span:before {
+    -webkit-box-shadow: 0 0 0 2px #74b0ff;
+    box-shadow: 0 0 0 2px #74b0ff;
+    border-radius: 2px;
+}
+.rating input:focus-visible + label span:before {
+    -webkit-box-shadow: 0 0 0 2px #74b0ff;
+    box-shadow: 0 0 0 2px #74b0ff;
+    border-radius: 2px;
+}
+.rating label {
+    margin: 0;
+    line-height: 1;
+    float: right;
+    font-size: 22px;
+    cursor: pointer;
+    color: #ffa100;
+}
+.rating label span:before {
+    padding: 2px 4px 0 0;
+    font-size: 1.25em;
+    display: inline-block;
+    font-family: 'FontAwesome';
+    content: "\f005";
+    font-weight: 900;
+}
+.rating label span.half:before {
+    content: "\f089";
+    position: absolute;
+    padding-right: 0;
+}
+.rating.stars:not(:checked) > label {
+    color: #ffd999;
+}
+.rating.stars > input#reviewer_rating_1:checked ~ label[for="reviewer_rating_1"], .rating.stars > input#reviewer_rating_1:checked ~ label[for="reviewer_rating_1"] ~ label, .rating.stars > input#reviewer_rating_2:checked ~ label[for="reviewer_rating_2"], .rating.stars > input#reviewer_rating_2:checked ~ label[for="reviewer_rating_2"] ~ label, .rating.stars > input#reviewer_rating_3:checked ~ label[for="reviewer_rating_3"], .rating.stars > input#reviewer_rating_3:checked ~ label[for="reviewer_rating_3"] ~ label, .rating.stars > input#reviewer_rating_4:checked ~ label[for="reviewer_rating_4"], .rating.stars > input#reviewer_rating_4:checked ~ label[for="reviewer_rating_4"] ~ label, .rating.stars > input#reviewer_rating_5:checked ~ label[for="reviewer_rating_5"], .rating.stars > input#reviewer_rating_5:checked ~ label[for="reviewer_rating_5"] ~ label, .rating.stars > input#reviewer_rating_6:checked ~ label[for="reviewer_rating_6"], .rating.stars > input#reviewer_rating_6:checked ~ label[for="reviewer_rating_6"] ~ label, .rating.stars > input#reviewer_rating_7:checked ~ label[for="reviewer_rating_7"], .rating.stars > input#reviewer_rating_7:checked ~ label[for="reviewer_rating_7"] ~ label, .rating.stars > input#reviewer_rating_8:checked ~ label[for="reviewer_rating_8"], .rating.stars > input#reviewer_rating_8:checked ~ label[for="reviewer_rating_8"] ~ label, .rating.stars > input#reviewer_rating_9:checked ~ label[for="reviewer_rating_9"], .rating.stars > input#reviewer_rating_9:checked ~ label[for="reviewer_rating_9"] ~ label, .rating.stars > input#reviewer_rating_10:checked ~ label[for="reviewer_rating_10"], .rating.stars > input#reviewer_rating_10:checked ~ label[for="reviewer_rating_10"] ~ label, .rating.stars:not(:checked) > label:hover, .rating.stars:not(:checked) > label:hover ~ label, .rating.stars > input#reviewer_rating_1:checked ~ label[for="reviewer_rating_1"]:hover, .rating.stars > input#reviewer_rating_1:checked ~ label[for="reviewer_rating_1"] ~ label:hover, .rating.stars > input#reviewer_rating_2:checked ~ label[for="reviewer_rating_2"]:hover, .rating.stars > input#reviewer_rating_2:checked ~ label[for="reviewer_rating_2"] ~ label:hover, .rating.stars > input#reviewer_rating_3:checked ~ label[for="reviewer_rating_3"]:hover, .rating.stars > input#reviewer_rating_3:checked ~ label[for="reviewer_rating_3"] ~ label:hover, .rating.stars > input#reviewer_rating_4:checked ~ label[for="reviewer_rating_4"]:hover, .rating.stars > input#reviewer_rating_4:checked ~ label[for="reviewer_rating_4"] ~ label:hover, .rating.stars > input#reviewer_rating_5:checked ~ label[for="reviewer_rating_5"]:hover, .rating.stars > input#reviewer_rating_5:checked ~ label[for="reviewer_rating_5"] ~ label:hover, .rating.stars > input#reviewer_rating_6:checked ~ label[for="reviewer_rating_6"]:hover, .rating.stars > input#reviewer_rating_6:checked ~ label[for="reviewer_rating_6"] ~ label:hover, .rating.stars > input#reviewer_rating_7:checked ~ label[for="reviewer_rating_7"]:hover, .rating.stars > input#reviewer_rating_7:checked ~ label[for="reviewer_rating_7"] ~ label:hover, .rating.stars > input#reviewer_rating_8:checked ~ label[for="reviewer_rating_8"]:hover, .rating.stars > input#reviewer_rating_8:checked ~ label[for="reviewer_rating_8"] ~ label:hover, .rating.stars > input#reviewer_rating_9:checked ~ label[for="reviewer_rating_9"]:hover, .rating.stars > input#reviewer_rating_9:checked ~ label[for="reviewer_rating_9"] ~ label:hover, .rating.stars > input#reviewer_rating_10:checked ~ label[for="reviewer_rating_10"]:hover, .rating.stars > input#reviewer_rating_10:checked ~ label[for="reviewer_rating_10"] ~ label:hover, .rating.stars > input#reviewer_rating_1:checked ~ label[for="reviewer_rating_1"]:hover ~ label, .rating.stars > input#reviewer_rating_1:checked ~ label[for="reviewer_rating_1"] ~ label:hover ~ label, .rating.stars > input#reviewer_rating_2:checked ~ label[for="reviewer_rating_2"]:hover ~ label, .rating.stars > input#reviewer_rating_2:checked ~ label[for="reviewer_rating_2"] ~ label:hover ~ label, .rating.stars > input#reviewer_rating_3:checked ~ label[for="reviewer_rating_3"]:hover ~ label, .rating.stars > input#reviewer_rating_3:checked ~ label[for="reviewer_rating_3"] ~ label:hover ~ label, .rating.stars > input#reviewer_rating_4:checked ~ label[for="reviewer_rating_4"]:hover ~ label, .rating.stars > input#reviewer_rating_4:checked ~ label[for="reviewer_rating_4"] ~ label:hover ~ label, .rating.stars > input#reviewer_rating_5:checked ~ label[for="reviewer_rating_5"]:hover ~ label, .rating.stars > input#reviewer_rating_5:checked ~ label[for="reviewer_rating_5"] ~ label:hover ~ label, .rating.stars > input#reviewer_rating_6:checked ~ label[for="reviewer_rating_6"]:hover ~ label, .rating.stars > input#reviewer_rating_6:checked ~ label[for="reviewer_rating_6"] ~ label:hover ~ label, .rating.stars > input#reviewer_rating_7:checked ~ label[for="reviewer_rating_7"]:hover ~ label, .rating.stars > input#reviewer_rating_7:checked ~ label[for="reviewer_rating_7"] ~ label:hover ~ label, .rating.stars > input#reviewer_rating_8:checked ~ label[for="reviewer_rating_8"]:hover ~ label, .rating.stars > input#reviewer_rating_8:checked ~ label[for="reviewer_rating_8"] ~ label:hover ~ label, .rating.stars > input#reviewer_rating_9:checked ~ label[for="reviewer_rating_9"]:hover ~ label, .rating.stars > input#reviewer_rating_9:checked ~ label[for="reviewer_rating_9"] ~ label:hover ~ label, .rating.stars > input#reviewer_rating_10:checked ~ label[for="reviewer_rating_10"]:hover ~ label, .rating.stars > input#reviewer_rating_10:checked ~ label[for="reviewer_rating_10"] ~ label:hover ~ label, .rating.stars > input#reviewer_rating_1:checked ~ label:hover ~ label[for="reviewer_rating_1"], .rating.stars > input#reviewer_rating_1:checked ~ label:hover ~ label[for="reviewer_rating_1"] ~ label, .rating.stars > input#reviewer_rating_2:checked ~ label:hover ~ label[for="reviewer_rating_2"], .rating.stars > input#reviewer_rating_2:checked ~ label:hover ~ label[for="reviewer_rating_2"] ~ label, .rating.stars > input#reviewer_rating_3:checked ~ label:hover ~ label[for="reviewer_rating_3"], .rating.stars > input#reviewer_rating_3:checked ~ label:hover ~ label[for="reviewer_rating_3"] ~ label, .rating.stars > input#reviewer_rating_4:checked ~ label:hover ~ label[for="reviewer_rating_4"], .rating.stars > input#reviewer_rating_4:checked ~ label:hover ~ label[for="reviewer_rating_4"] ~ label, .rating.stars > input#reviewer_rating_5:checked ~ label:hover ~ label[for="reviewer_rating_5"], .rating.stars > input#reviewer_rating_5:checked ~ label:hover ~ label[for="reviewer_rating_5"] ~ label, .rating.stars > input#reviewer_rating_6:checked ~ label:hover ~ label[for="reviewer_rating_6"], .rating.stars > input#reviewer_rating_6:checked ~ label:hover ~ label[for="reviewer_rating_6"] ~ label, .rating.stars > input#reviewer_rating_7:checked ~ label:hover ~ label[for="reviewer_rating_7"], .rating.stars > input#reviewer_rating_7:checked ~ label:hover ~ label[for="reviewer_rating_7"] ~ label, .rating.stars > input#reviewer_rating_8:checked ~ label:hover ~ label[for="reviewer_rating_8"], .rating.stars > input#reviewer_rating_8:checked ~ label:hover ~ label[for="reviewer_rating_8"] ~ label, .rating.stars > input#reviewer_rating_9:checked ~ label:hover ~ label[for="reviewer_rating_9"], .rating.stars > input#reviewer_rating_9:checked ~ label:hover ~ label[for="reviewer_rating_9"] ~ label, .rating.stars > input#reviewer_rating_10:checked ~ label:hover ~ label[for="reviewer_rating_10"], .rating.stars > input#reviewer_rating_10:checked ~ label:hover ~ label[for="reviewer_rating_10"] ~ label {
+    color: #ffa100;
+}
